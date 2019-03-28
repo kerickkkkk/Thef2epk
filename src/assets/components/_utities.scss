@@ -4,9 +4,30 @@
     background-position: center center;
 }
 
+//字體垂直排序
+.writing-vertical {
+    writing-mode: vertical-rl;
+}
+
+.writing-md-vertical {
+    @include media-breakpoint-up(md) {
+        writing-mode: vertical-rl;
+    }
+}
+
+//限高
 //背景
 .bg-primary-lighter {
     background-color: $primary-200;
 }
 
-//sapcing
+.text-primary-light {
+    color: $primary-500;
+}
+
+.minus-md-margin {
+    @include media-breakpoint-up(md) {
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
+}

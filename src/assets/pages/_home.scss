@@ -1,0 +1,72 @@
+.threepoint {
+    margin-top: -90px;
+    //不得已只好操作這個阿~~~~~
+    .col-4:not(:last-child) {
+        border-right: 1px solid #fff;
+    }
+    //用a包住整個
+    &__wrap {
+        position: relative;
+        font-size: 24px;
+        height: 256px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        overflow: hidden;
+        &.active,
+        &:hover,
+        &:active {
+            text-decoration: none;
+            color: theme-color('primary');
+            font-weight: bold;
+            .threepoint__cover {
+                background-color: rgba(theme-color('accent'), .8);
+            }
+            .threepoint__img {
+                filter: blur(0);
+            }
+        }
+    }
+    &__text {
+        writing-mode: vertical-lr;
+        z-index: 2;
+        letter-spacing: 10px;
+    }
+    //bgc 無法和 blur一啟用 分兩個部份操作
+    &__cover {
+        position: absolute;
+        right: 0px;
+        left: 0px;
+        top: 0px;
+        bottom: 0px;
+        transition: all .5s;
+        background-color: rgba(theme-color('primary'), .8);
+        z-index: 1;
+    }
+    //毛玻璃
+    &__img {
+        position: absolute;
+        //修掉會看到背景的問題
+        right: -10px;
+        left: -10px;
+        top: -10px;
+        bottom: -10px;
+        transition: all .5s;
+        filter: blur(5px);
+    }
+}
+
+.content {
+    &__vertical {
+        max-height: 420px;
+        line-height: 2;
+        @include media-breakpoint-up(md) {
+            line-height: 2.5;
+        }
+    }
+    &__img__intro {
+        min-height: 250px;
+    }
+}
