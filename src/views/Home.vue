@@ -133,6 +133,74 @@
         </div>
       </div>
     </section>
+
+    <!-- 產品列表 -->
+    <section class="productlist">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card__item mb-7">
+              <div
+                class="card__item__img bg-cover"
+                style="background-image:url(https://images.unsplash.com/photo-1514517220017-8ce97a34a7b6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7c376ffa487bcd258df29dc881b10703&auto=format&fit=crop&w=700&q=60);"
+              >
+                <div class="card__item__tag text-white bg-primary">本日精選</div>
+                <div class="card__item__icon">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+              <div class="card__item__content d-flex">
+                <div class="card__item__title py-3 text-center">焦糖馬卡龍</div>
+                <div class="card__item__price py-3 text-center">NT$ 450</div>
+              </div>
+              <div class="card__item__footer">
+                <div class="btn btn-primary-lighter btn-block py-3">加入購物車</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card__item mb-7">
+              <div
+                class="card__item__img bg-cover"
+                style="background-image:url(https://bit.ly/2zBDAxX);"
+              >
+                <div class="card__item__tag text-white bg-primary">本日精選</div>
+                <div class="card__item__icon">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+              <div class="card__item__content d-flex">
+                <div class="card__item__title py-3 text-center">焦糖馬卡龍</div>
+                <div class="card__item__price py-3 text-center">NT$ 450</div>
+              </div>
+              <div class="card__item__footer">
+                <div class="btn btn-primary-lighter btn-block py-3">加入購物車</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card__item mb-7">
+              <div
+                class="card__item__img bg-cover"
+                style="background-image:url(https://bit.ly/2QbVsVR);"
+              >
+                <div class="card__item__tag text-white bg-primary">本日精選</div>
+                <div class="card__item__icon">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+              <div class="card__item__content d-flex">
+                <div class="card__item__title py-3 text-center">焦糖馬卡龍</div>
+                <div class="card__item__price py-3 text-center">NT$ 450</div>
+              </div>
+              <div class="card__item__footer">
+                <div class="btn btn-primary-lighter btn-block py-3">加入購物車</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 

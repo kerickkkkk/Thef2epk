@@ -76,3 +76,34 @@
         }
     }
 }
+
+.productlist {}
+
+.card__item {
+    flex: 1;
+    &__img {
+        height: 315px;
+        position: relative;
+    }
+    &__tag {
+        position: absolute;
+        left: 20px;
+        top: 0;
+        writing-mode: vertical-lr;
+        padding: 15px 10px;
+        color: white;
+        letter-spacing: 5px;
+    }
+    &__icon {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        font-size: 20px;
+    }
+    &__price,
+    &__title {
+        font-size: 20px;
+        border: 1px solid $primary-200;
+        flex: 1;
+    }
+}

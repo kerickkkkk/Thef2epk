@@ -31,3 +31,11 @@
         margin-bottom: -20px;
     }
 }
+
+//按鈕
+.btn-primary-lighter {
+    @include button-variant($primary-200, darken($primary-200, 10%));
+    color: $primary;
+    font-size: 24px;
+    font-weight: bold;
+}
