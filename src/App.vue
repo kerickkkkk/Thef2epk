@@ -4,6 +4,7 @@
       <router-link to="/">Home</router-link>|
       <router-link to="/about">About</router-link>
     </div>-->
+    <h1 class="text-hide">Vue Dessert Ecommerce Webside</h1>
     <nav class="navbar navbar-expand-md bg-white">
       <div class="container">
         <button
@@ -33,28 +34,42 @@
           >
         </a>
         <!-- cart -->
-        <a class="navbar-brand order-md-1 p-5 py-md-6 pl-md-6 pr-md-0" href="#">
+        <router-link
+          to="carts"
+          class="navbar-brand order-md-1 p-5 py-md-6 pl-md-6 pr-md-0"
+          href="#"
+        >
           <span class="d-block" style="padding:5px 0;">
             <i class="fas fa-shopping-cart"></i>
           </span>
-        </a>
+        </router-link>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link py-6 px-5" href="#">
+              <router-link to="/" class="nav-link py-6 px-5" href="#">
                 <span class="d-block" style="padding:8px 0;">首頁</span>
-              </a>
+              </router-link>
+              <!-- <a class="nav-link py-6 px-5" href="#">
+                <span class="d-block" style="padding:8px 0;">首頁</span>
+              </a>-->
             </li>
             <li class="nav-item">
-              <a class="nav-link py-6 px-5" href="#">
+              <router-link to="/products" class="nav-link py-6 px-5" href="#">
                 <span class="d-block" style="padding:8px 0;">甜點</span>
-              </a>
+              </router-link>
+              <!-- <a class="nav-link py-6 px-5" href="#">
+                <span class="d-block" style="padding:8px 0;">甜點</span>
+              </a>-->
             </li>
+
             <li class="nav-item">
-              <a class="nav-link py-6 px-5" href="#">
+              <router-link to="/register" class="nav-link py-6 px-5" href="#">
                 <span class="d-block" style="padding:8px 0;">登入</span>
-              </a>
+              </router-link>
+              <!-- <a class="nav-link py-6 px-5" href="#">
+                <span class="d-block" style="padding:8px 0;">登入</span>
+              </a>-->
             </li>
           </ul>
         </div>
