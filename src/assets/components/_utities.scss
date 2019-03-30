@@ -76,10 +76,8 @@
     color: $primary;
     font-size: 24px;
     font-weight: bold;
-    cursor: pointer;
 }
 
 .btn-brand-light {
     @include button-variant(white, darken(white, 10%));
-    cursor: pointer;
 }

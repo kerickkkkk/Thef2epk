@@ -40,7 +40,7 @@
                   </div>
                 </div>
               </div>
-              <div class="carts__price align-items-center d-flex flex-md-row">
+              <div class="carts__price align-items-center d-flex flex-md-row mb-md-2">
                 <div class="carts__totalPrice ml-auto text-primary h5 mb-0">NT$ 900</div>
                 <a href="#" class="carts__del d-none d-md-block ml-md-5">
                   <i class="far fa-trash-alt"></i>
@@ -83,7 +83,7 @@
                   </div>
                 </div>
               </div>
-              <div class="carts__price align-items-center d-flex flex-md-row">
+              <div class="carts__price align-items-center d-flex flex-md-row mb-md-2">
                 <div class="carts__totalPrice ml-auto text-primary h5 mb-0">NT$ 900</div>
                 <a href="#" class="carts__del d-none d-md-block ml-md-5">
                   <i class="far fa-trash-alt"></i>
@@ -126,7 +126,7 @@
                   </div>
                 </div>
               </div>
-              <div class="carts__price align-items-center d-flex flex-md-row">
+              <div class="carts__price align-items-center d-flex flex-md-row mb-md-2">
                 <div class="carts__totalPrice ml-auto text-primary h5 mb-0">NT$ 900</div>
                 <a href="#" class="carts__del d-none d-md-block ml-md-5">
                   <i class="far fa-trash-alt"></i>
@@ -155,7 +155,7 @@
               <span class="ml-auto">NT$ 3,300</span>
             </p>
           </div>
-          <div class="btn btn-lg btn-accent btn-block text-md-primary">結帳</div>
+          <a class="btn btn-lg btn-accent btn-block text-md-primary">結帳</a>
         </div>
       </div>
     </div>

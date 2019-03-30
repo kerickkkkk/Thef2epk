@@ -92,12 +92,12 @@
           </div>
           <div class="col-md-5">
             <div class="form-sqare d-flex justify-content-center align-items-center">
-              <label class="form-square-icon h4 mb-0 text-primary" for="subdescript">
+              <label class="form-sqare-icon h4 mb-0 text-primary" for="subdescript">
                 <i class="fas fa-envelope"></i>
               </label>
-              <input class="form-sqare__input w-100" id="subdescript" type="text">
-              <button class="btn btn-accent p-4 text-primary">
-                <i class="fas fa-arrow-right"></i>
+              <input class="form-sqare__input form-sqare-btn w-100" id="subdescript" type="text">
+              <button class="btn btn-accent p-4 h5 mb-0 text-primary">
+                <span class="btn-icon fas fa-arrow-right" aria-hidden="true"></span>
               </button>
             </div>
           </div>

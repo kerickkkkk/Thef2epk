@@ -36,7 +36,7 @@
                   <div class="login__content p-5 pt-md-0">
                     <!-- uer -->
                     <div class="mb-3 form-sqare d-flex justify-content-center align-items-center">
-                      <label class="form-square-icon h4 mb-0 text-primary" for="subdescript">
+                      <label class="form-sqare-icon h4 mb-0 text-primary" for="subdescript">
                         <i class="fas fa-user"></i>
                       </label>
                       <input
@@ -48,7 +48,7 @@
                     </div>
                     <!-- pwd -->
                     <div class="mb-3 form-sqare d-flex justify-content-center align-items-center">
-                      <label class="form-square-icon h4 mb-0 text-primary" for="subdescript">
+                      <label class="form-sqare-icon h4 mb-0 text-primary" for="subdescript">
                         <i class="fas fa-key"></i>
                       </label>
                       <input
@@ -69,7 +69,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="btn btn-lg btn-block btn-accent h4 mb-0 text-primary py-3">登入帳號</div>
+                <button class="btn btn-lg btn-block btn-accent h4 mb-0 text-primary py-3">登入帳號</button>
               </div>
             </div>
             <div class="col-md-6">

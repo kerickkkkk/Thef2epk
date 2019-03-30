@@ -15,9 +15,12 @@
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    .fas::before {
-        position: absolute;
-        top: 20px;
-        left: 20px;
+    .form-sqare-btn {
+        position: relative;
+        &-icon {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
     }
 }
