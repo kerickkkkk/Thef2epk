@@ -10,24 +10,28 @@ export default new Router({
             name: 'Home',
             component: () =>
                 import ('./views/Home.vue'),
+            meta: { title: '首頁' },
         },
         {
             path: '/products',
             name: 'Products',
             component: () =>
                 import ('./views/Products.vue'),
+            meta: { title: '產品列表' },
         },
         {
             path: '/register',
             name: 'Register',
             component: () =>
                 import ('./views/Register.vue'),
+            meta: { title: '註冊頁面' },
         },
         {
             path: '/carts',
             name: 'Carts',
             component: () =>
                 import ('./views/Carts.vue'),
+            meta: { title: '購物車' },
         },
         // {
         //     path: '/checkout',

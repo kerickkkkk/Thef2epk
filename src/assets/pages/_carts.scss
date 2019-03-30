@@ -1,0 +1,40 @@
+.carts {
+    &__img {
+        height: 100px;
+        width: 100px;
+        background-size: cover;
+        background-position: center center;
+    }
+    &__inner {
+        @include media-breakpoint-up(md) {
+            border-bottom: 1px solid $primary-200;
+        }
+    }
+    &__number {
+        width: 145px;
+        .btn {
+            font-size: 20px;
+            padding-left: 18px;
+            padding-right: 18px;
+        }
+    }
+    &__price {
+        @include media-breakpoint-down(md) {
+            border-top: 1px solid $primary-200;
+            border-bottom: 1px solid $primary-200;
+        }
+    }
+    &__totalPrice {
+        padding: .5rem 0;
+    }
+    &__control {
+        text-align: center;
+        height: calc(1rem + 30px + 2px);
+        flex: 1;
+    }
+}
+
+// @include media-breakpoint-up(md) {
+//     border-bottom: 1px solid $primary-200;
+// }
+// style="height: 110px; width: 110px; background-image: url(https://bit.ly/2zBDAxX);"

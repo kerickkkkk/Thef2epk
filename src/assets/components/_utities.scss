@@ -4,6 +4,28 @@
     background-position: center center;
 }
 
+//底線
+.board-bottom-lighter {
+    border-bottom: 1px solid $primary-200;
+}
+
+//超過 mdup 才有用
+.board-bottom-mdup-lighter {
+    @include media-breakpoint-down(md) {
+        border-bottom: 1px solid $primary-200;
+    }
+}
+
+.board-bottom-md-lighter {
+    @include media-breakpoint-up(md) {
+        border-bottom: 1px solid $primary-200;
+    }
+}
+
+.board-bottom-lighter {
+    border-bottom: 1px solid $primary-200;
+}
+
 //字體垂直排序
 .writing-vertical {
     writing-mode: vertical-rl;
@@ -21,8 +43,20 @@
     background-color: $primary-200;
 }
 
+.bg-md-primary {
+    @include media-breakpoint-up(md) {
+        background-color: $primary;
+    }
+}
+
 .text-primary-lighter {
     color: $primary-200;
+}
+
+.text-primary-md-lighter {
+    @include media-breakpoint-up(md) {
+        color: $primary-200 !important;
+    }
 }
 
 .text-primary-light {
@@ -42,4 +76,10 @@
     color: $primary;
     font-size: 24px;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-brand-light {
+    @include button-variant(white, darken(white, 10%));
+    cursor: pointer;
 }
