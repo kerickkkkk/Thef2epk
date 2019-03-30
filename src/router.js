@@ -33,6 +33,13 @@ export default new Router({
                 import ('./views/Carts.vue'),
             meta: { title: '購物車' },
         },
+        {
+            path: '/checkout',
+            name: 'Checkout',
+            component: () =>
+                import ('./views/Checkout.vue'),
+            meta: { title: '結帳' },
+        },
         // {
         //     path: '/checkout',
         //     name: 'Checkout',

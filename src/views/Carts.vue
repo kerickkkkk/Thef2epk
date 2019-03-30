@@ -155,7 +155,7 @@
               <span class="ml-auto">NT$ 3,300</span>
             </p>
           </div>
-          <a class="btn btn-lg btn-accent btn-block text-md-primary">結帳</a>
+          <router-link to="checkout" class="btn btn-lg btn-accent btn-block text-md-primary">結帳</router-link>
         </div>
       </div>
     </div>

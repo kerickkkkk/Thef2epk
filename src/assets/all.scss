@@ -1,9 +1,11 @@
 @import "~bootstrap/scss/_functions";
 @import "./helpers/variables";
 @import "~bootstrap/scss/bootstrap";
-//區塊內容
+//componets
 @import "./helpers/buttons";
 @import "./components/formSquare";
+@import "./components/formSquare";
+//區塊
 @import "./layout";
 @import "./pages/home";
 @import "./pages/products";
